@@ -6,6 +6,7 @@ Simple ToDo App React Native Sample
 2. Clone Repo
 3. `yarn` or `npm install`
 4. Setup Firebase project, select 'new web app', then paste your tokens in place of these inside `MainView.js`: 
+4a. In Firebase, enable public read/write security on your database.
 ```
 const FIREBASE_CONFIG = {
   apiKey: "xxxxxxxx",
